@@ -1,13 +1,15 @@
 package com.example.demo.model
 
-class Panel {
-  var nombre: String? = null
-  var apellido: String? = null
-  var correo: String? = null
+data class Panel (
 
-  constructor(nombre: String, apellido: String, correo: String){
-    this.nombre = nombre
-    this.apellido = apellido
-    this.correo = correo
-  }
-}
+  var idEstadoSocio: Number? = null,
+  var prioridad: Number? = null,
+  var nombreComercial: String? = null,
+  var rfc: String? = null,
+  var razonSocial: String? = null,
+  var alias: String? = null,
+  var prioridades: String? = null,
+  var estado: Number? = null,
+  var activo: String? = null
+
+)
